@@ -9,7 +9,7 @@ Rabbitmq, onion architecture, CQRS, JWT Authentication...
 
 Projenin dosyalaması biraz saçma olma sebebi benim projeleri oluştururken dosya yapısını belirtmeyi unutmuş olmamdan kaynaklı.
 Aslında projenin src klasörü içerisinde bir de Apps klasörü olmalı ve içinde:
-  IdentityService.Api 
-  HasanPolatCom.WebApi
-  HasanPolatCom.Console
+  IdentityService.Api ,
+  HasanPolatCom.WebApi ,
+  HasanPolatCom.Console ,
 projeleri bulunmalıydı. Ancak bu projeler klasör yapısı içerisinde biraz dağıtık bir şekilde bulundu.
