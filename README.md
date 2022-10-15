@@ -14,12 +14,12 @@ Rabbitmq, onion architecture, CQRS, JWT Authentication...
     HasanPolatCom.Console ,
   projeleri bulunmalıydı. Ancak bu projeler klasör yapısı içerisinde biraz dağıtık bir şekilde bulundu.
 
-### API Nasıl işliyor ?
+## API Nasıl işliyor ?
 
 * İlk yapmamız gereken işlem kayıt olmaktır. Kayıt olduktan sonra ise giriş yaparak JWT Tokenimizi almamız gerekmektedir.
 * Tokenimizi aldıktan sonra mail gönderimlerimizi yapabiliriz.
 
-### Peki Nasıl Kullanacağız ? 
+## Peki Nasıl Kullanacağız ? 
 
 ##### Kayıt Olma
 
