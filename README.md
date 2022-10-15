@@ -21,7 +21,7 @@ Rabbitmq, onion architecture, CQRS, JWT Authentication...
 
 ## Peki Nasıl Kullanacağız ? 
 
-##### Kayıt Olma
+### Kayıt Olma
 
 `https://localhost:7202/api/Auth/Register`
 
@@ -35,7 +35,7 @@ Parametreler:
 
 Cevap olarak kullanıcı value kısmında kullanıcı id'si dönecektir.
 
-##### Giriş Yapma
+### Giriş Yapma
 
 `https://localhost:7202/api/Auth`
 
