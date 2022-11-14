@@ -44,3 +44,23 @@ Parametreler:
 * password : String, Kullanıcının AccountPassword kısmına yazdığı şifresi.
 
 Cevap olarak kullanıcı value kısmında JWT Tokeni dönecektir.
+
+
+### Mail Gönderme
+
+`https://localhost:7210/api/Mail/send`
+
+Parametreler:
+* receiver : String, Mail gönderilecek gmail adresi.
+* content : String, Mail içeriği.
+* header : String, Mail başlığı.
+* Aynı zamanda bearer token olarak giriş yaparak aldığımız tokeni göndermemiz gerekmektedir.
+
+### Mail Gönderim Sorgulama
+
+`https://localhost:7210/api/Mail/getAll`
+
+Parametreler:
+* Bearer token olarak giriş yaparak aldığımız tokeni göndermemiz yeterlidir.
+
+Bize gönderdiğimiz tüm mailleri detaylarıyla verecektir.
